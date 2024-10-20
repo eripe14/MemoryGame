@@ -51,61 +51,61 @@ build cmake_object_order_depends_target_MemoryGame: phony || .
 
 build CMakeFiles/MemoryGame.dir/main.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/main.cpp || cmake_object_order_depends_target_MemoryGame
   DEP_FILE = CMakeFiles\MemoryGame.dir\main.cpp.obj.d
-  FLAGS = -finput-charset=UTF-8 -fexec-charset=UTF-8 -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
   OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir
 
 build CMakeFiles/MemoryGame.dir/game/user/User.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/user/User.cpp || cmake_object_order_depends_target_MemoryGame
   DEP_FILE = CMakeFiles\MemoryGame.dir\game\user\User.cpp.obj.d
-  FLAGS = -finput-charset=UTF-8 -fexec-charset=UTF-8 -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
   OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\user
 
 build CMakeFiles/MemoryGame.dir/game/user/UserManager.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/user/UserManager.cpp || cmake_object_order_depends_target_MemoryGame
   DEP_FILE = CMakeFiles\MemoryGame.dir\game\user\UserManager.cpp.obj.d
-  FLAGS = -finput-charset=UTF-8 -fexec-charset=UTF-8 -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
   OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\user
 
 build CMakeFiles/MemoryGame.dir/game/board/BoardManager.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/board/BoardManager.cpp || cmake_object_order_depends_target_MemoryGame
   DEP_FILE = CMakeFiles\MemoryGame.dir\game\board\BoardManager.cpp.obj.d
-  FLAGS = -finput-charset=UTF-8 -fexec-charset=UTF-8 -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
   OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\board
 
 build CMakeFiles/MemoryGame.dir/game/board/card/Card.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/board/card/Card.cpp || cmake_object_order_depends_target_MemoryGame
   DEP_FILE = CMakeFiles\MemoryGame.dir\game\board\card\Card.cpp.obj.d
-  FLAGS = -finput-charset=UTF-8 -fexec-charset=UTF-8 -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
   OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\board\card
 
 build CMakeFiles/MemoryGame.dir/game/board/Board.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/board/Board.cpp || cmake_object_order_depends_target_MemoryGame
   DEP_FILE = CMakeFiles\MemoryGame.dir\game\board\Board.cpp.obj.d
-  FLAGS = -finput-charset=UTF-8 -fexec-charset=UTF-8 -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
   OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\board
 
 build CMakeFiles/MemoryGame.dir/game/user/UserProvider.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/user/UserProvider.cpp || cmake_object_order_depends_target_MemoryGame
   DEP_FILE = CMakeFiles\MemoryGame.dir\game\user\UserProvider.cpp.obj.d
-  FLAGS = -finput-charset=UTF-8 -fexec-charset=UTF-8 -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
   OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\user
 
 build CMakeFiles/MemoryGame.dir/game/board/queue/TurnQueue.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/board/queue/TurnQueue.cpp || cmake_object_order_depends_target_MemoryGame
   DEP_FILE = CMakeFiles\MemoryGame.dir\game\board\queue\TurnQueue.cpp.obj.d
-  FLAGS = -finput-charset=UTF-8 -fexec-charset=UTF-8 -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
   OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\board\queue
 
 build CMakeFiles/MemoryGame.dir/game/Game.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/Game.cpp || cmake_object_order_depends_target_MemoryGame
   DEP_FILE = CMakeFiles\MemoryGame.dir\game\Game.cpp.obj.d
-  FLAGS = -finput-charset=UTF-8 -fexec-charset=UTF-8 -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
   OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game
 
 build CMakeFiles/MemoryGame.dir/game/backup/BackupService.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/backup/BackupService.cpp || cmake_object_order_depends_target_MemoryGame
   DEP_FILE = CMakeFiles\MemoryGame.dir\game\backup\BackupService.cpp.obj.d
-  FLAGS = -finput-charset=UTF-8 -fexec-charset=UTF-8 -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
   OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\backup
 
@@ -118,7 +118,7 @@ build CMakeFiles/MemoryGame.dir/game/backup/BackupService.cpp.obj: CXX_COMPILER_
 # Link the executable MemoryGame.exe
 
 build MemoryGame.exe: CXX_EXECUTABLE_LINKER__MemoryGame_Debug CMakeFiles/MemoryGame.dir/main.cpp.obj CMakeFiles/MemoryGame.dir/game/user/User.cpp.obj CMakeFiles/MemoryGame.dir/game/user/UserManager.cpp.obj CMakeFiles/MemoryGame.dir/game/board/BoardManager.cpp.obj CMakeFiles/MemoryGame.dir/game/board/card/Card.cpp.obj CMakeFiles/MemoryGame.dir/game/board/Board.cpp.obj CMakeFiles/MemoryGame.dir/game/user/UserProvider.cpp.obj CMakeFiles/MemoryGame.dir/game/board/queue/TurnQueue.cpp.obj CMakeFiles/MemoryGame.dir/game/Game.cpp.obj CMakeFiles/MemoryGame.dir/game/backup/BackupService.cpp.obj
-  FLAGS = -finput-charset=UTF-8 -fexec-charset=UTF-8 -g
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
   POST_BUILD = cd .
