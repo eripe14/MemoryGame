@@ -1,0 +1,3 @@
+D:/Coding/Codes/MemoryGame/cmake-build-debug/CMakeFiles/MemoryGame.dir
+D:/Coding/Codes/MemoryGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Codes/MemoryGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir

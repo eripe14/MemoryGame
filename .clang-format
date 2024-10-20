@@ -1,0 +1,7 @@
+AccessModifierOffset: -4
+IndentAccessModifiers: true
+IndentWidth: 4
+TabWidth: 4
+UseTab: ForIndentation
+IndentCaseLabels: true
+ColumnLimit: 130
