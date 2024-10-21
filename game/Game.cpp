@@ -50,7 +50,7 @@ void Game::takeTurn() {
 		int secondCardNumber;
 
 		if (isComputer) {
-			cout << "Komputer wybiera numer pierwszej karty: " <<firstCardNumber << endl;
+			cout << "Komputer wybiera numer pierwszej karty: " << endl;
 			this_thread::sleep_for(chrono::seconds(2));
 			firstCardNumber = getRandomCardNumber();
 		} else {
@@ -74,7 +74,7 @@ void Game::takeTurn() {
 		cout << "Odkryto karte: " << firstCard->getCardType() << endl;
 
 		if (isComputer) {
-			cout << "Komputer wybiera numer drugiej karty: " << secondCardNumber << endl;
+			cout << "Komputer wybiera numer drugiej karty: " << endl;
 			this_thread::sleep_for(chrono::seconds(1));
 			secondCardNumber = getRandomCardNumber();
 
