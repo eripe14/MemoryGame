@@ -8,6 +8,7 @@
 #include <random>
 #include <set>
 #include <unordered_set>
+#include <numeric>
 
 using namespace std;
 

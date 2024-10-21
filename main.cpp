@@ -18,45 +18,51 @@ using namespace std;
 
 int main() {
 
-	/*
-	*	BackupService backupService;
+	//filesystem::current_path("../");
+	//
+	//BackupService backupService;
+	//UserManager userManager;
+	//
+	//Board board = backupService.loadBoardFromFile("backup_2024_10_21_09_09_07.txt", userManager);
+	//cout << "Wczytano plansze" << endl;
+	//
+	//cout << board.getRows() << " " << board.getCols() << " " << to_string(board.getDifficulty()) << endl;
+	//cout << "size: " << userManager.getUsers().size() << endl;
+	//
+	//
+	//for (auto card : board.getCards()) {
+	//	cout << card.first << " : " << card.second.getCardType() << " : " << card.second.isGuessed() << endl;
+	//
+	//}
+	//
+	//for (auto user : userManager.getUsers()) {
+	//	cout << user.second->getName() << " " << user.second->getPoints() << endl;
+	//}
+	//
+	//string dummy;
+	//cin >> dummy;
 
-
-	Board board = backupService.loadBoardFromFile("xd.txt", userManager);
-	cout << "Wczytano plansze" << endl;
-
-	cout << board.getRows() << " " << board.getCols() << " " << to_string(board.getDifficulty()) << endl;
-	cout << "size: " << userManager.getUsers().size() << endl;
-
-	for (auto user : userManager.getUsers()) {
-		cout << user.second->getName() << " " << user.second->getPoints() << endl;
-	}
-
-	string dummy;
-	cin >> dummy;
-
-	 */
+	 
 
 	filesystem::current_path("../");
 	filesystem::create_directories("./resources");
-
+	
+	
 	UserManager userManager;
 	const UserProvider userProvider(userManager);
 	userProvider.provideUsers();
-
+	
 	const DifficultyProvider difficultyProvider = DifficultyProvider();
 	const Difficulty difficulty = difficultyProvider.getDifficulty();
 	const CardTypeService cardTypeService = CardTypeService();
 	const pair<int, int> boardSize = SizeProvider::getBoardSize();
-
+	
 	Board board = Board(boardSize.first, boardSize.second, difficulty);
 	board.createCards(cardTypeService, difficulty);
-
-
-
+	
 	// kolory dodac:
 	// zielony odkryte, zolty w trakcie odkrywania
-
+	
 	Game game = Game(userManager, board);
 	game.startGame();
 
