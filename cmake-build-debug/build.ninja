@@ -49,65 +49,131 @@ cmake_ninja_workdir = D$:/Coding/Codes/MemoryGame/cmake-build-debug/
 
 build cmake_object_order_depends_target_MemoryGame: phony || .
 
-build CMakeFiles/MemoryGame.dir/main.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/main.cpp || cmake_object_order_depends_target_MemoryGame
-  DEP_FILE = CMakeFiles\MemoryGame.dir\main.cpp.obj.d
+build CMakeFiles/MemoryGame.dir/src/main.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/main.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\main.cpp.obj.d
   FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
-  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src
 
-build CMakeFiles/MemoryGame.dir/game/user/User.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/user/User.cpp || cmake_object_order_depends_target_MemoryGame
-  DEP_FILE = CMakeFiles\MemoryGame.dir\game\user\User.cpp.obj.d
+build CMakeFiles/MemoryGame.dir/src/game/user/User.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/user/User.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\user\User.cpp.obj.d
   FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
-  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\user
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game\user
 
-build CMakeFiles/MemoryGame.dir/game/user/UserManager.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/user/UserManager.cpp || cmake_object_order_depends_target_MemoryGame
-  DEP_FILE = CMakeFiles\MemoryGame.dir\game\user\UserManager.cpp.obj.d
+build CMakeFiles/MemoryGame.dir/src/game/user/UserManager.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/user/UserManager.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\user\UserManager.cpp.obj.d
   FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
-  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\user
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game\user
 
-build CMakeFiles/MemoryGame.dir/game/board/BoardManager.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/board/BoardManager.cpp || cmake_object_order_depends_target_MemoryGame
-  DEP_FILE = CMakeFiles\MemoryGame.dir\game\board\BoardManager.cpp.obj.d
+build CMakeFiles/MemoryGame.dir/src/game/board/BoardManager.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/board/BoardManager.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\board\BoardManager.cpp.obj.d
   FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
-  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\board
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game\board
 
-build CMakeFiles/MemoryGame.dir/game/board/card/Card.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/board/card/Card.cpp || cmake_object_order_depends_target_MemoryGame
-  DEP_FILE = CMakeFiles\MemoryGame.dir\game\board\card\Card.cpp.obj.d
+build CMakeFiles/MemoryGame.dir/src/game/board/card/Card.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/board/card/Card.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\board\card\Card.cpp.obj.d
   FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
-  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\board\card
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game\board\card
 
-build CMakeFiles/MemoryGame.dir/game/board/Board.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/board/Board.cpp || cmake_object_order_depends_target_MemoryGame
-  DEP_FILE = CMakeFiles\MemoryGame.dir\game\board\Board.cpp.obj.d
+build CMakeFiles/MemoryGame.dir/src/game/board/Board.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/board/Board.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\board\Board.cpp.obj.d
   FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
-  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\board
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game\board
 
-build CMakeFiles/MemoryGame.dir/game/user/UserProvider.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/user/UserProvider.cpp || cmake_object_order_depends_target_MemoryGame
-  DEP_FILE = CMakeFiles\MemoryGame.dir\game\user\UserProvider.cpp.obj.d
+build CMakeFiles/MemoryGame.dir/src/game/user/UserProvider.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/user/UserProvider.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\user\UserProvider.cpp.obj.d
   FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
-  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\user
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game\user
 
-build CMakeFiles/MemoryGame.dir/game/board/queue/TurnQueue.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/board/queue/TurnQueue.cpp || cmake_object_order_depends_target_MemoryGame
-  DEP_FILE = CMakeFiles\MemoryGame.dir\game\board\queue\TurnQueue.cpp.obj.d
+build CMakeFiles/MemoryGame.dir/src/game/board/queue/TurnQueue.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/board/queue/TurnQueue.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\board\queue\TurnQueue.cpp.obj.d
   FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
-  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\board\queue
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game\board\queue
 
-build CMakeFiles/MemoryGame.dir/game/Game.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/Game.cpp || cmake_object_order_depends_target_MemoryGame
-  DEP_FILE = CMakeFiles\MemoryGame.dir\game\Game.cpp.obj.d
+build CMakeFiles/MemoryGame.dir/src/game/Game.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/Game.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\Game.cpp.obj.d
   FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
-  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game
 
-build CMakeFiles/MemoryGame.dir/game/backup/BackupService.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/game/backup/BackupService.cpp || cmake_object_order_depends_target_MemoryGame
-  DEP_FILE = CMakeFiles\MemoryGame.dir\game\backup\BackupService.cpp.obj.d
+build CMakeFiles/MemoryGame.dir/src/game/backup/BackupService.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/backup/BackupService.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\backup\BackupService.cpp.obj.d
   FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
-  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\game\backup
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game\backup
+
+build CMakeFiles/MemoryGame.dir/src/game/backup/LoadHandler.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/backup/LoadHandler.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\backup\LoadHandler.cpp.obj.d
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
+  OBJECT_DIR = CMakeFiles\MemoryGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game\backup
+
+build CMakeFiles/MemoryGame.dir/src/game/user/UserRepository.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/user/UserRepository.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\user\UserRepository.cpp.obj.d
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
+  OBJECT_DIR = CMakeFiles\MemoryGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game\user
+
+build CMakeFiles/MemoryGame.dir/src/game/user/UserStatistics.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/user/UserStatistics.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\user\UserStatistics.cpp.obj.d
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
+  OBJECT_DIR = CMakeFiles\MemoryGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game\user
+
+build CMakeFiles/MemoryGame.dir/src/game/CardSelector.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/CardSelector.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\CardSelector.cpp.obj.d
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
+  OBJECT_DIR = CMakeFiles\MemoryGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game
+
+build CMakeFiles/MemoryGame.dir/src/game/GameState.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/GameState.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\GameState.cpp.obj.d
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
+  OBJECT_DIR = CMakeFiles\MemoryGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game
+
+build CMakeFiles/MemoryGame.dir/src/game/score/ScoreManager.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/score/ScoreManager.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\score\ScoreManager.cpp.obj.d
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
+  OBJECT_DIR = CMakeFiles\MemoryGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game\score
+
+build CMakeFiles/MemoryGame.dir/src/game/user/UserGameStats.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/user/UserGameStats.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\user\UserGameStats.cpp.obj.d
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
+  OBJECT_DIR = CMakeFiles\MemoryGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game\user
+
+build CMakeFiles/MemoryGame.dir/src/game/Menu.cpp.obj: CXX_COMPILER__MemoryGame_unscanned_Debug D$:/Coding/Codes/MemoryGame/src/game/Menu.cpp || cmake_object_order_depends_target_MemoryGame
+  DEP_FILE = CMakeFiles\MemoryGame.dir\src\game\Menu.cpp.obj.d
+  FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-src/include
+  OBJECT_DIR = CMakeFiles\MemoryGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\MemoryGame.dir\src\game
 
 
 # =============================================================================
@@ -117,7 +183,7 @@ build CMakeFiles/MemoryGame.dir/game/backup/BackupService.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable MemoryGame.exe
 
-build MemoryGame.exe: CXX_EXECUTABLE_LINKER__MemoryGame_Debug CMakeFiles/MemoryGame.dir/main.cpp.obj CMakeFiles/MemoryGame.dir/game/user/User.cpp.obj CMakeFiles/MemoryGame.dir/game/user/UserManager.cpp.obj CMakeFiles/MemoryGame.dir/game/board/BoardManager.cpp.obj CMakeFiles/MemoryGame.dir/game/board/card/Card.cpp.obj CMakeFiles/MemoryGame.dir/game/board/Board.cpp.obj CMakeFiles/MemoryGame.dir/game/user/UserProvider.cpp.obj CMakeFiles/MemoryGame.dir/game/board/queue/TurnQueue.cpp.obj CMakeFiles/MemoryGame.dir/game/Game.cpp.obj CMakeFiles/MemoryGame.dir/game/backup/BackupService.cpp.obj
+build MemoryGame.exe: CXX_EXECUTABLE_LINKER__MemoryGame_Debug CMakeFiles/MemoryGame.dir/src/main.cpp.obj CMakeFiles/MemoryGame.dir/src/game/user/User.cpp.obj CMakeFiles/MemoryGame.dir/src/game/user/UserManager.cpp.obj CMakeFiles/MemoryGame.dir/src/game/board/BoardManager.cpp.obj CMakeFiles/MemoryGame.dir/src/game/board/card/Card.cpp.obj CMakeFiles/MemoryGame.dir/src/game/board/Board.cpp.obj CMakeFiles/MemoryGame.dir/src/game/user/UserProvider.cpp.obj CMakeFiles/MemoryGame.dir/src/game/board/queue/TurnQueue.cpp.obj CMakeFiles/MemoryGame.dir/src/game/Game.cpp.obj CMakeFiles/MemoryGame.dir/src/game/backup/BackupService.cpp.obj CMakeFiles/MemoryGame.dir/src/game/backup/LoadHandler.cpp.obj CMakeFiles/MemoryGame.dir/src/game/user/UserRepository.cpp.obj CMakeFiles/MemoryGame.dir/src/game/user/UserStatistics.cpp.obj CMakeFiles/MemoryGame.dir/src/game/CardSelector.cpp.obj CMakeFiles/MemoryGame.dir/src/game/GameState.cpp.obj CMakeFiles/MemoryGame.dir/src/game/score/ScoreManager.cpp.obj CMakeFiles/MemoryGame.dir/src/game/user/UserGameStats.cpp.obj CMakeFiles/MemoryGame.dir/src/game/Menu.cpp.obj
   FLAGS = -static-libstdc++ -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 --static -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MemoryGame.dir
@@ -151,6 +217,34 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Coding/Codes/MemoryGame/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps/json-build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Coding\Codes\MemoryGame\cmake-build-debug\_deps\json-build && F:\JetBrains\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build _deps/json-build/edit_cache: phony _deps/json-build/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps/json-build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Coding\Codes\MemoryGame\cmake-build-debug\_deps\json-build && F:\JetBrains\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\Coding\Codes\MemoryGame -BD:\Coding\Codes\MemoryGame\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps/json-build/rebuild_cache: phony _deps/json-build/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build MemoryGame: phony MemoryGame.exe
@@ -163,7 +257,14 @@ build MemoryGame: phony MemoryGame.exe
 #############################################
 # Folder: D:/Coding/Codes/MemoryGame/cmake-build-debug
 
-build all: phony MemoryGame.exe
+build all: phony MemoryGame.exe _deps/json-build/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/Coding/Codes/MemoryGame/cmake-build-debug/_deps/json-build
+
+build _deps/json-build/all: phony
 
 # =============================================================================
 # Built-in targets
@@ -172,14 +273,14 @@ build all: phony MemoryGame.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Coding/Codes/MemoryGame/CMakeLists.txt F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Coding/Codes/MemoryGame/CMakeLists.txt F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/ExternalProject.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FetchContent.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake _deps/json-src/CMakeLists.txt _deps/json-src/cmake/config.cmake.in _deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in _deps/json-src/cmake/pkg-config.pc.in
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Coding/Codes/MemoryGame/CMakeLists.txt F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Coding/Codes/MemoryGame/CMakeLists.txt F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/ExternalProject.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FetchContent.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake F$:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake _deps/json-src/CMakeLists.txt _deps/json-src/cmake/config.cmake.in _deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in _deps/json-src/cmake/pkg-config.pc.in: phony
 
 
 #############################################
