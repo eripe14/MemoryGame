@@ -1,0 +1,51 @@
+1. W obiekcie Alert, zrob sobie private final UUID bo i tak potem uuid to stringa robisz nie potrzebnie, baza obsługuję UUID. Usuń wtedy @Data z obiektu i zrób same gettery. Zmień nazwe fielda z player na playerUuid, żeby było to czytelniejsze.
+2. W alert service zrób jakąś metodę do tworzenia alertów w której handlujesz logiką tworzenia tego. 
+3. Metoda addAlert nie powinna wysyłać alertów do graczy - jej nazwa mówi sama w sobie, że tylko dodaje. Zrób metode do wysyłania osobną, w której sprawdzasz czy gracz online czy też nie.
+4. GarageCommand wydziel sobie kazda metode do osobnej klasy. I nazwij to e.g GarageResetDatabaseCommand. Nie rób hardcoded inventory wydziel to do inventory, żeby mogli sobie skonfigurować wszystkie itemy i nazwy gui. Do tworzenia gui osobna klasa powinna być np. GarageLogsInventory, i potem tylko się do niej odwołujesz i robisz e.g openInventory. 
+5.         DataGatherer.builder(plugin)
+            .steps(
+                new ProtectedPolygonalRegionStep("Zaznacz region garażu", name, garage::setGarageRegion),
+                new ProtectedPolygonalRegionStep("Zaznacz region podjazdu/wyjazdu", name + "_ramp", garage::setGarageRampRegion),
+                new LocationStep("Podejdź do miejsca rampy i kliknij F", location ->
+                    garage.setRampPosition(PositionAdapter.convert(location))
+                ),
+                new RightClickedBlockStep("Kliknij miejsce pada", block ->
+                    garage.setPadPosition(PositionAdapter.convert(block.getLocation().clone().add(0, 1, 0)))
+                ),
+                new RightClickedBlockStep("Kliknij miejsce guzika bramy", block ->
+                    garage.setDoorButtonPosition(PositionAdapter.convert(block.getLocation()))
+                ),
+                new ChatMessageStep("Napisz id drzwi", s -> garage.setDoorId(Long.parseLong(s)))
+                    .resultHandler(s -> {
+                        long id;
+                        try {
+                            id = Long.parseLong(s);
+                        } catch (NumberFormatException e) {
+                            return StepResult.fail("Niepoprawne id drzwi");
+                        }
+                        Set<Door> doors = BigDoors.get().getCommander().getDoors();
+                        if (doors.stream().noneMatch(door -> door.getDoorUID() == id)) {
+                            return StepResult.fail("Nie znaleziono drzwi o podanym ID");
+                        }
+                        return StepResult.success();
+                    })
+            )
+            .endAction(() -> {
+                worldGuard.manager(player.getWorld()).addRegion(garage.getGarageRegion());
+                worldGuard.manager(player.getWorld()).addRegion(garage.getGarageRampRegion());
+
+                CustomFurniture.spawn(
+                    garage instanceof BuyableGarage ? pluginConfig.buyRentFurnitureId : pluginConfig.rentFurnitureId,
+                    PositionAdapter.convert(garage.getPadPosition()).getBlock()
+                );
+
+                garageManager.addGarage(name, garage);
+
+                parkingGatherer(player, garage);
+            })
+            .withoutSuccessMessage()
+            .build()
+            .start(player);
+    }
+
+nie wiem co to, to nie powinno być w komendzie
